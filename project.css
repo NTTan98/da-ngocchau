@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    text-align: center;
+}
+
+
+li,a,button{
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.chibi1{
+    float: left;
+    cursor: pointer;
+}
+
+.chibi2{
+    float: right;
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    background: black;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+.logo{
+    cursor: pointer;
+    background: transparent;
+}
+
+nav li{
+    display: inline-block;
+    padding: 0px  20px;
+    justify-content: center;
+}
+li a:hover{
+    transition: opacity 0.3s ease-in;
+}
+
+li a:hover{
+    transition: opacity 0.3s ease-in;
+    color: rgb(194, 193, 193);
+}
+
+button{
+    padding: 9px  25px;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: opacity 0.3s ease-in;
+}
+
+button:hover{
+    background-color: rgb(218, 127, 127);
+}
+.logo:hover{
+    background-color: rgb(78, 76, 76);
+}
+h1{
+    padding: 20px;
+}
+
+.logo1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.card{
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.boxshadow{
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0px 0px 4px 6px #ccc;
+    max-width: 900px;
+    padding: 20px;
+}
+h2{
+    padding: 20px;
+}
+
+#nhanvat:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+p{
+    padding: 20px;
+    margin: 0px  25px 70px;
+    line-height: 200%;
+}
+
+.imagechar{
+    float: left;
+    margin: .5cm  1cm .5cm  0;
+    margin-right: 24px;
+    margin-bottom: 6px;
+    margin-left: 24px;
+}
+
+.thongtin{
+    margin-bottom: 26px;
+
+}
+
+.imgchar2{
+    padding: 20px;
+    width: 100%;
+}
+
+.logo5{
+    height: 40%;
+    width: 40%;
+}
+
+.manga{
+    margin: .5cm  1cm .5cm  0;
+    margin-right: 24px;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.logo6{
+    margin-bottom: 26px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+.Juvia{
+    width:30%;
+    margin: 10px;
+    text-align: center;
+    float: left;
+    padding: 10px;
+}
+
+iframe{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 20px;
+    margin: 20px; 
+}
+
+div{
+    text-align:center;
+}
